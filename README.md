@@ -3,7 +3,7 @@ This problem perplexed me at first, then after some probing online I figured it'
 
 My very first thought was that this is a classic DFS problem specifically because of the workflowStates which is how we would avoid cycles in the DFS call stack, but thinking about the clock you keep mentioning, it looks like you're eluding to an inDegree map and that this is a BFS problem, more specifically Kahn's Algorithm for topological sort.
 
-# What's going on in my head
+# What's going on in my head (In chronological order with no timestamps)
 steps = adjacency map (we have steps and their next, so their dependents/child nodes)
 clockMap = inDegree map
 
